@@ -2,3 +2,10 @@ Helloworld
 	{
 		system.out.println("print hellow world");
 	}
+
+adding c program 
+
+Hello C
+	{
+		printf("print C");
+	}
