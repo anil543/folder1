@@ -1,0 +1,121 @@
+class 1
+
+type git to check installed
+mkdir devops
+cd devops
+
+>git config --global user.name "anil543"
+>git config --global user.email anil.vemu93@gmail.com
+>git init
+>git add .
+
+>attrib -s -h -r /s /d  (to view hidden files)
+>git clone url
+>dir
+>cd repositaryname
+>dir
+
+check the README.md file in the dir
+
+>notepad
+
+enter some data and save the file in server repositary(intro.txt)
+
+>git status -s
+>git add intro.txt .........
+>git status -s   (to check the status of the file) 
+>git commit -m "test commit" (to save)
+>git log (to confirm the saved changes)
+>git push origin master (to push data to git)
+
+check into git hub repositary to view the file
+if you made any changes in the file >git pull
+
+>git branch(to check the branches)
+>git branch hotproductionfix       (to create the branch)
+>git branch
+>git checkout hotproductionfix    (to swith from one branch to other)
+>dir
+>file name (intro.txt)
+
+so notepad popups you can add or change the data
+
+its is changing master
+
+>git branch
+>git status -s
+>git add intro.txt
+>git status -s
+>git commit -m "i love you"
+>git push origin hotproductionfix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class 2
+
+
+>git
+>git log
+>git show (commit id)
+>git branch (to check the current branch)
+>dir
+>intro.txt(to made some changes)
+>git status -s
+>git add (intro.txt)file name
+>git diff(it shows the diff b/w two files in the same branch)
+>create new branch (omkar)git branch omkar
+move from working directory(master) to omkar (git checkout omkar)
+
+>after add some data into the file (intro.txt) and save that as (git status -s) and (git add intro.txt)
+
+after check the status(git status -s)
+
+>git commit -m (some comments name)
+
+>git push origin omkar
+
+after switch to mater branch >git checkout master
+
+>git pull (to check the branch is upto date)
+
+>git merge origin/omkar
+
+ tag is nothing but alie's to commit id 
+
+commit is very big to remember so we use tag name instead of commit id
+
+command to enable commitid--->tag is
+>git tag -a "relese_1_0" -m "support iphone$ipad" HEAD
+
+HEAD-- pointing to current commit
+relese_1_0--->tag name
+
+cls---> clear command
+
+>git stash (if you have any other work and suddenly go to that work,by using this command no changes was saved)
+
+>git stash pop (this command used data you entered previoudly to return to same place)
+
+>git mv sourcefile destinpath (moving data from one place to other)
+
+>git filename rm (to delete a file)
+
